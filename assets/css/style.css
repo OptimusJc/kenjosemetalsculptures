@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif; }
+
+body {
+  font-family: "Imprima", sans-serif;
+  font-size: 16px;
+  color: #002651; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*="col-"] {
+  float: left; }
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .menu {
+    height: 40px;
+    width: 45px; }
+
+.brand {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1.73px; }
+
+.navigation {
+  display: none; }
+
+.media-item {
+  width: 340px;
+  height: 240px;
+  overflow: hidden; }
+  .media-item img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center center; }
+
+.media {
+  margin-top: 2.5rem; }
+  .media .media-body .media-head {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1.94px;
+    line-height: 30px;
+    color: #ff304f;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .media .media-body p {
+    font-size: 0.9rem;
+    letter-spacing: 1.37px;
+    line-height: 21px; }
+  .media .media-body:last-child {
+    margin-bottom: 2.8125rem; }
+
+.footer .quick-links .footer-heading {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 1.01px;
+  line-height: 21px;
+  text-transform: capitalize;
+  margin-bottom: 0.9375rem; }
+
+.footer .quick-links ul li {
+  margin-bottom: 1.25rem;
+  display: flex; }
+  .footer .quick-links ul li a {
+    text-transform: capitalize;
+    letter-spacing: 1.37px;
+    line-height: 21px;
+    font-size: 0.875rem;
+    display: flex; }
+  .footer .quick-links ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.9375rem; }
+
+.footer .quick-links .footer-brand {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1.73px; }
+
+.footer .quick-links .email p {
+  text-transform: lowercase; }
+
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.8125rem;
+  margin-bottom: 1.875rem;
+  text-align: center;
+  font-size: 0.875rem;
+  letter-spacing: 1.51px; }
+  .footer .copyright img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.4rem; }
+  .footer .copyright p {
+    text-transform: capitalize; }

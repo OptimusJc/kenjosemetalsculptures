@@ -1,0 +1,64 @@
+.footer {
+    .quick-links {
+        .footer-heading {
+            font-size: 0.875rem;
+            font-weight: 500;
+            letter-spacing: 1.01px;
+            line-height: 21px;
+            text-transform: capitalize;
+            margin-bottom: 0.9375rem;
+        }
+
+        ul {
+            li {
+                margin-bottom: 1.25rem;
+                display: flex;
+
+                a {
+                    text-transform: capitalize;
+                    letter-spacing: 1.37px;
+                    line-height: 21px;
+                    font-size: 0.875rem;
+
+                    display: flex;
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 0.9375rem;
+                }
+            }
+        }
+
+        .footer-brand {
+            font-size: 1.1rem;
+            font-weight: bold;
+            letter-spacing: 1.73px;
+        }
+
+        .email p {
+            text-transform: lowercase;
+        }
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.8125rem;
+        margin-bottom: 1.875rem;
+        text-align: center;
+        font-size: 0.875rem;
+        letter-spacing: 1.51px;
+
+        img {
+            width: 15px;
+            height: 15px;
+            margin-right: 0.4rem; //original was 15px
+        }
+
+        p {
+            text-transform: capitalize;
+        }
+    }
+}

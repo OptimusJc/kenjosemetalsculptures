@@ -1,0 +1,14 @@
+.container {
+    max-width: 1200px;
+    @include padd(10px);
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+}

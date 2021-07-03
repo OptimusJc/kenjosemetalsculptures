@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+    font-family: "Imprima", sans-serif;
+    font-size: 16px;
+    color: $blue;
+}
+
+a {
+    text-decoration: none;
+}
