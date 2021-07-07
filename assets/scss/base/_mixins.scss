@@ -2,3 +2,8 @@
     padding-left: $pad;
     padding-right: $pad;
 }
+
+@mixin reverse-margin($mag) {
+    margin-right: -$mag;
+    margin-left: -$mag;
+}

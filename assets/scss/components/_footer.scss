@@ -13,6 +13,7 @@
             li {
                 margin-bottom: 1.25rem;
                 display: flex;
+                font-size: 0.875rem;
 
                 a {
                     text-transform: capitalize;
@@ -39,26 +40,6 @@
 
         .email p {
             text-transform: lowercase;
-        }
-    }
-
-    .copyright {
-        display: flex;
-        justify-content: center;
-        margin-top: 2.8125rem;
-        margin-bottom: 1.875rem;
-        text-align: center;
-        font-size: 0.875rem;
-        letter-spacing: 1.51px;
-
-        img {
-            width: 15px;
-            height: 15px;
-            margin-right: 0.4rem; //original was 15px
-        }
-
-        p {
-            text-transform: capitalize;
         }
     }
 }
