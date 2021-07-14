@@ -1,63 +1,53 @@
 const data = [
     {
         "pic": "/assets/images/buffalo.jpg",
-        "name": "elephant art",
-        "description": "this is a simple artwork of an elephant",
-        "id": 1
+        "name": "buffalo art",
+        "description": "this is a simple artwork of an buffalo"
     },
     {
         "pic": "/assets/images/cobra.jpg",
         "name": "cobra art",
-        "description": "this is a simple artwork of a cobra",
-        "id": 2
+        "description": "this is a simple artwork of a cobra"
     },
     {
         "pic": "/assets/images/elephant 2.jpg",
         "name": "elephant 2 art",
-        "description": "this is a simple artwork of an elephant kenya",
-        "id": 3
+        "description": "this is a simple artwork of an elephant kenya"
     },
     {
         "pic": "/assets/images/girrafe.jpg",
         "name": "girrafe art",
-        "description": "this is a simple artwork of an girrafe",
-        "id": 4
+        "description": "this is a simple artwork of an girrafe"
     },
     {
         "pic": "/assets/images/hippo 2.jpg",
         "name": "hippo art",
-        "description": "this is a simple artwork of a hippo",
-        "id": 5
+        "description": "this is a simple artwork of a hippo"
     },
     {
-        "pic": "/assets/images/lizzard.jpg",
+        "pic": "/assets/images/lizard.jpg",
         "name": "lizzard art",
-        "description": "this is a simple artwork of a lizzard",
-        "id": 6
+        "description": "this is a simple artwork of a lizzard"
     },
     {
         "pic": "/assets/images/ostrich.jpg",
         "name": "ostrich art",
-        "description": "this is a simple artwork of an ostrich",
-        "id": 7
+        "description": "this is a simple artwork of an ostrich"
     },
     {
-        "pic": "/assets/images/rihno.jpg",
-        "name": "rihno art",
-        "description": "this is a simple artwork of an rihno",
-        "id": 8
+        "pic": "/assets/images/rhino.jpg",
+        "name": "rhinocerous art",
+        "description": "this is a simple artwork of an rihno"
     },
     {
         "pic": "/assets/images/wilde beast.jpg",
         "name": "wilde beast art",
-        "description": "this is a simple artwork of an wilde beast",
-        "id": 9
+        "description": "this is a simple artwork of an wilde beast"
     },
     {
         "pic": "/assets/images/zebra.jpg",
         "name": "zebra art",
-        "description": "this is a simple artwork of an zebra",
-        "id": 10
+        "description": "this is a simple artwork of an zebra"
     }
 ];
 
