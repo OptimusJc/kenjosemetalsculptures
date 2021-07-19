@@ -1,35 +1,35 @@
 .navigation {
     // ! come back and fix the hover for mobile
-
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
     background: white;
-    align-items: center;
+    display: none;
     padding-top: 70px;
     @include reverse-margin(10px);
     z-index: -1;
 
     .nav-icons {
-        width: 18px;
-        height: 18px;
+        width: 19px;
+        height: 19px;
         margin-right: 60px;
     }
 
     ul li {
-        padding: 24px 0;
+        // padding: 24px 0;
         padding-left: 25px;
 
         a {
             text-transform: capitalize;
             letter-spacing: 1.57px;
-            font-family: "fira sans";
-            font-weight: 500;
+            font-weight: bold;
+            font-size: 0.9rem;
             padding: 26px 120px 20px 0;
             outline: none;
+            display: flex;
+            align-items: center;
         }
     }
 }

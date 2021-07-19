@@ -11,3 +11,9 @@
         width: 45px;
     }
 }
+
+@include small-and-above {
+    .header {
+        border: 1px solid red;
+    }
+}

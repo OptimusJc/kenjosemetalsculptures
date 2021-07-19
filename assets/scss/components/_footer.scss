@@ -2,11 +2,11 @@
     .quick-links {
         .footer-heading {
             font-size: 0.875rem;
-            font-weight: 500;
             letter-spacing: 1.01px;
             line-height: 21px;
             text-transform: capitalize;
             margin-bottom: 0.9375rem;
+            font-weight: bold;
         }
 
         ul {
@@ -14,14 +14,16 @@
                 margin-bottom: 1.25rem;
                 display: flex;
                 font-size: 0.875rem;
+                letter-spacing: 1px;
 
                 a {
                     text-transform: capitalize;
                     letter-spacing: 1.37px;
                     line-height: 21px;
                     font-size: 0.875rem;
-
                     display: flex;
+                    width: 300px;
+                    color: $blue;
                 }
 
                 img {
@@ -40,6 +42,8 @@
 
         .email p {
             text-transform: lowercase;
+            word-wrap: break-word;
+            width: 280px;
         }
     }
 }
