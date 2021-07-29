@@ -34,6 +34,12 @@ media_body.appendChild(p);
 // col.classList.add('container');
 media.classList.add('media');
 
+  // give images with size property 'big' the class 'media-item-large'
+  if(`${extracted_item.size}` === "big") {
+    media_item.classList.add('media-item', 'media-item-large');
+    img.setAttribute('src', `${extracted_item.pic}`);
+}
+
 img.setAttribute('src', `${extracted_item.pic}`);
 media_item.classList.add('media-item');
 

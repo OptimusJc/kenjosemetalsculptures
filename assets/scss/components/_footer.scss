@@ -27,17 +27,15 @@
                 }
 
                 img {
-                    width: 20px;
-                    height: 20px;
+                    width: 30px;
+                    // height: 20px;
                     margin-right: 0.9375rem;
                 }
             }
         }
 
-        .footer-brand {
-            font-size: 1.1rem;
-            font-weight: bold;
-            letter-spacing: 1.73px;
+        .footer-brand img {
+            height: 40px;
         }
 
         .email p {

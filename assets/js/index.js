@@ -33,6 +33,13 @@ window.addEventListener('load', () => {
         media.classList.add('media');
         // media.setAttribute('data-number', `${art.id}`);
         
+        // give images with size property 'big' the class 'media-item-large'
+        if(`${art.size}` === "big") {
+            media_item.classList.add('media-item', 'media-item-large');
+            img.setAttribute('src', `${art.pic}`);
+            // console.log(`${art.name}`)
+        }
+
         img.setAttribute('src', `${art.pic}`);
         media_item.classList.add('media-item');
         
@@ -49,5 +56,15 @@ window.addEventListener('load', () => {
     }
 
     data.forEach( (art, index) => renderElement(art, (index+1)));
+
+    let ipad = window.matchMedia('(min-width: 48em)');
+
+    if(ipad.matches) {
+        console.log(`${ipad}`)
+    } else {
+        console.log('media width does not match')
+    }
+
+
 
 });  
