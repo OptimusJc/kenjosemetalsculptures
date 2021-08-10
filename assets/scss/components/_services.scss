@@ -1,7 +1,6 @@
 .services {
     font-size: 0.9rem;
     letter-spacing: 1.37px;
-    text-transform: capitalize;
     line-height: 21px;
     list-style-type: disc;
     padding-left: 10px;
@@ -9,5 +8,16 @@
     .inner-services {
         list-style-type: decimal;
         padding-left: 20px;
+        text-transform: capitalize;
+    }
+
+    @include small-and-above {
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .inner-services li {
+            margin-bottom: 0.2rem;
+        }
     }
 }

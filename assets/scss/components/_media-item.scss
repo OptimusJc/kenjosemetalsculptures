@@ -5,10 +5,30 @@
     // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
         rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 2px;
 
     img {
         width: 100%;
         object-fit: contain;
-        object-position: center center;
+        object-position: 50% 50%;
+    }
+}
+
+.media-item-large {
+    height: 350px;
+    width: 340px;
+    overflow: hidden;
+}
+
+@include small-and-above {
+    .media-item {
+        width: 360px;
+        height: 270px;
+    }
+
+    .media-item-large {
+        height: 320px;
+        width: 340px;
+        overflow: hidden;
     }
 }

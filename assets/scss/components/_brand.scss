@@ -1,5 +1,8 @@
-.brand {
-    font-size: 1.1rem;
-    font-weight: bold;
-    letter-spacing: 1.73px;
+.brand img {
+    width: 100px;
+    height: 50px;
+
+    @include small-and-above {
+        width: 120px;
+    }
 }
