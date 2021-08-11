@@ -21,6 +21,9 @@
                     letter-spacing: 1.37px;
                     line-height: 21px;
                     font-size: 0.875rem;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
                     display: flex;
                     width: 300px;
                     color: $blue;
@@ -67,7 +70,14 @@
     // // device width above 75ems
     @include medium-and-above {
         .row .col-roll {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
+
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
             flex: 1;
             margin-top: 5rem;
 

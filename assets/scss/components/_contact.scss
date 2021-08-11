@@ -9,6 +9,9 @@
         margin-top: 35px;
 
         li a {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
             align-items: center;
             margin-top: 15px;
@@ -111,8 +114,11 @@
 
         li {
             margin-bottom: 0.9375rem;
-            display: flex;
             font-size: 0.875rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
 
             a {
                 color: $blue;
@@ -120,6 +126,9 @@
                 text-transform: capitalize;
                 line-height: 21px;
                 font-size: 0.875rem;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
                 display: flex;
 
                 p {

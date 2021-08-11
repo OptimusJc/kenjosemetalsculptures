@@ -28,6 +28,9 @@
             font-size: 0.9rem;
             padding: 26px 120px 20px 0;
             outline: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
             align-items: center;
         }
@@ -47,6 +50,9 @@
         }
 
         ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
             display: flex;
             align-items: center;
             justify-items: center;

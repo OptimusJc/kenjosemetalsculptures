@@ -1,7 +1,5 @@
 .content {
     @include small-and-above {
-        // @include marg(20px);
-
         // reduce the height of the media div on the content page
         .media {
             height: 380px;

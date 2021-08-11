@@ -193,6 +193,9 @@ a {
 
 .header {
   height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -237,6 +240,9 @@ a {
       font-size: 0.9rem;
       padding: 26px 120px 20px 0;
       outline: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       align-items: center; }
   @media only screen and (min-width: 48em) {
@@ -251,6 +257,9 @@ a {
       .navigation .nav-icons {
         display: none; }
       .navigation ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         align-items: center;
         justify-items: center; }
@@ -378,6 +387,9 @@ a {
     letter-spacing: 1.37px;
     line-height: 21px;
     font-size: 0.875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     width: 300px;
     color: #002651; }
@@ -405,7 +417,13 @@ a {
 
 @media only screen and (min-width: 75em) {
   .footer .row .col-roll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     margin-top: 5rem; }
     .footer .row .col-roll .quick-links ul li a {
@@ -424,6 +442,9 @@ a {
   text-transform: capitalize; }
 
 .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   margin-top: 2.8125rem;
@@ -473,6 +494,9 @@ a {
   .contact ul {
     margin-top: 35px; }
     .contact ul li a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       align-items: center;
       margin-top: 15px; }
@@ -555,14 +579,20 @@ a {
     letter-spacing: 1.37px; }
     .email-form ul li {
       margin-bottom: 0.9375rem;
-      display: flex;
-      font-size: 0.875rem; }
+      font-size: 0.875rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; }
       .email-form ul li a {
         color: #002651;
         max-width: 280px;
         text-transform: capitalize;
         line-height: 21px;
         font-size: 0.875rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex; }
         .email-form ul li a p {
           word-wrap: break-word;
