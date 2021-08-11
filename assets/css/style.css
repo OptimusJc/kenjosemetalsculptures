@@ -126,19 +126,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@font-face {
-  font-family: "league";
-  src: local("/assets/fonts/leaguespartan.ttf"), url("/assets/fonts/leaguespartan.ttf"); }
-
-@font-face {
-  font-family: "libre";
-  src: local("/assets/fonts/LibreBaskerville.ttf"), url("/assets/fonts/LibreBaskerville.ttf"); }
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "libre", sans-serif;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
   color: #002651; }
 
 h1,
@@ -147,12 +141,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "league", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
 
 body {
   font-size: 16px;
   color: #002651;
-  font-family: "libre", sans-serif; }
+  font-family: "Poppins", sans-serif; }
 
 a {
   text-decoration: none; }
@@ -238,7 +233,7 @@ a {
     .navigation ul li a {
       text-transform: capitalize;
       letter-spacing: 1.57px;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 0.9rem;
       padding: 26px 120px 20px 0;
       outline: none;
@@ -320,7 +315,7 @@ a {
     margin-top: 2rem; }
   .media .media-body .media-head {
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 1.94px;
     line-height: 30px;
