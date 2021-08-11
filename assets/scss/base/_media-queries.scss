@@ -6,3 +6,9 @@ $laptop: 75em;
         @content;
     }
 }
+
+@mixin medium-and-above {
+    @media only screen and (min-width: $laptop) {
+        @content;
+    }
+}

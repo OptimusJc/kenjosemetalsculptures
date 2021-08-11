@@ -6,12 +6,6 @@ const data = [
         "size": "small"
     },
     {
-        "pic": "/assets/images/cobra.jpg",
-        "name": "cobra art",
-        "description": "this is a simple artwork of a cobra",
-        "size": "big"
-    },
-    {
         "pic": "/assets/images/elephant 2.jpg",
         "name": "elephant 2 art",
         "description": "this is a simple artwork of an elephant kenya",
@@ -60,22 +54,28 @@ const data = [
         "size": "small"
     },
     {
-        "pic": "/assets/images/antelope.jpeg",
-        "name": "antelope art",
-        "description": "this is a simple art work of an antelope",
-        "size": "big"
+        "pic": "/assets/images/horses.jpeg",
+        "name": "horse",
+        "description": "this is a simple art work of a horse",
+        "size": "small"
+    },
+    {
+        "pic": "/assets/images/warthog.jpeg",
+        "name": "warthog",
+        "description": "this is a simple art work of a warthog",
+        "size": "small"
+    },
+    {
+        "pic": "/assets/images/peacock.jpeg",
+        "name": "peacock",
+        "description": "this is a simple art work of a peacock",
+        "size": "small"
     },
     {
         "pic": "/assets/images/greatKudu.jpeg",
         "name": "Great Kudu",
         "description": "this is a simple art work of the great kudu",
         "size": "big"
-    },
-    {
-        "pic": "/assets/images/horses.jpeg",
-        "name": "horse",
-        "description": "this is a simple art work of a horse",
-        "size": "small"
     },
     {
         "pic": "/assets/images/lion.jpeg",
@@ -90,16 +90,16 @@ const data = [
         "size": "big"
     },
     {
-        "pic": "/assets/images/warthog.jpeg",
-        "name": "warthog",
-        "description": "this is a simple art work of a warthog",
-        "size": "small"
+        "pic": "/assets/images/antelope.jpeg",
+        "name": "antelope art",
+        "description": "this is a simple art work of an antelope",
+        "size": "big"
     },
     {
-        "pic": "/assets/images/peacock.jpeg",
-        "name": "peacock",
-        "description": "this is a simple art work of a peacock",
-        "size": "small"
+        "pic": "/assets/images/cobra.jpg",
+        "name": "cobra art",
+        "description": "this is a simple artwork of a cobra",
+        "size": "big"
     },
 
 ];

@@ -27,6 +27,11 @@
             }
         }
     }
+
+    @include small-and-above {
+        @include reverse-margin(20px);
+        @include padd(20px);
+    }
 }
 
 .email-form {
@@ -130,13 +135,32 @@
             }
         }
     }
+
+    @include small-and-above {
+        width: 90%;
+
+        form {
+            input[type="text"],
+            input[type="email"],
+            textarea,
+            button {
+                width: 90%;
+            }
+        }
+        ul li a {
+            max-width: 350px;
+
+            p {
+                max-width: 350px;
+            }
+        }
+    }
 }
 
 // life saving element that put a negative margin to bring balance to the footer ::smiley
 .margin_bottom {
     position: relative;
     margin-top: -18rem;
-    // background: red;
     height: 100px;
     width: 100%;
 }

@@ -32,4 +32,51 @@
             align-items: center;
         }
     }
+
+    @include small-and-above {
+        display: block;
+        height: auto;
+        width: auto;
+        background: none;
+        position: relative;
+        padding-top: 0;
+        margin-right: 0;
+
+        .nav-icons {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+
+            li {
+                padding-left: 1rem;
+
+                a {
+                    padding: 20px;
+
+                    &:before {
+                        width: 0;
+                        height: 3px;
+                        border-radius: 3px;
+                        background: $pink;
+                        content: "";
+                        display: table;
+                        position: absolute;
+                        transition: width 0.4s;
+                    }
+
+                    &:hover:before {
+                        width: 55px;
+                    }
+                }
+
+                &:hover:last-child a:before {
+                    width: 100px;
+                }
+            }
+        }
+    }
 }

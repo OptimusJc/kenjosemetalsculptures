@@ -44,4 +44,33 @@
             width: 280px;
         }
     }
+
+    @include small-and-above {
+        .quick-links {
+            .footer-brand img {
+                height: 50px;
+            }
+
+            .email p {
+                width: 350px;
+            }
+
+            ul li {
+                a {
+                    width: 320px;
+                }
+            }
+        }
+    }
+
+    // device width above 75ems 
+    @include medium-and-above {
+        
+        .row  .col-roll {
+            display: flex;
+            
+        }
+    
+    }
 }
+

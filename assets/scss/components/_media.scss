@@ -27,4 +27,64 @@
             margin-bottom: 2.8125rem;
         }
     }
+
+    @include small-and-above {
+        // border: 1px solid;
+        height: 410px;
+
+        .space-down {
+            margin-top: 6rem;
+            padding-left: 1rem;
+        }
+
+        .media-body:last-child {
+            margin-bottom: 1rem;
+        }
+    }
 }
+
+@include small-and-above {
+    // reduce the height of the media div on the content page
+    .content {
+        .media {
+            height: 380px;
+        }
+    }
+
+    .about-us {
+        height: 450px;
+
+        .media-body {
+            width: 600px;
+            word-break: break-all;
+        }
+    }
+
+    .about-services .media-body {
+        width: 600px;
+        word-break: break-all;
+
+        .media-head {
+            margin-bottom: 0.4rem;
+        }
+    }
+}
+
+// @include small-and-above {
+//     .about-us {
+//         p {
+//             width: 650px;
+//             word-break: break-word;
+//         }
+//     }
+
+//     .about-services {
+//         padding-top: 2rem;
+//         height: 380px;
+//         width: 650px;
+
+//         .media-body .media-head {
+//             margin-bottom: 0.4rem;
+//         }
+//     }
+// }

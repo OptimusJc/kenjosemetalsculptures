@@ -9,7 +9,7 @@
 
     img {
         width: 100%;
-        object-fit: fill;
+        object-fit: contain;
         object-position: 50% 50%;
     }
 }
@@ -18,4 +18,17 @@
     height: 350px;
     width: 340px;
     overflow: hidden;
+}
+
+@include small-and-above {
+    .media-item {
+        width: 360px;
+        height: 270px;
+    }
+
+    .media-item-large {
+        height: 320px;
+        width: 340px;
+        overflow: hidden;
+    }
 }

@@ -11,7 +11,6 @@ const match = data.filter((element) => {
 })
 
 let extracted_item = match[0];
-console.log(extracted_item.name)
 
 // create elements    
 const media = document.createElement('div');
@@ -31,11 +30,12 @@ media.appendChild(media_body);
 media_body.appendChild(h3);
 media_body.appendChild(p);
 
-// col.classList.add('container');
 media.classList.add('media');
 
   // give images with size property 'big' the class 'media-item-large'
-  if(`${extracted_item.size}` === "big") {
+
+if(`${extracted_item.size}` === "big") {
+
     media_item.classList.add('media-item', 'media-item-large');
     img.setAttribute('src', `${extracted_item.pic}`);
 }
@@ -48,3 +48,17 @@ h3.innerHTML = extracted_item.name;
 h3.classList.add('media-head');
 
 p.innerHTML = extracted_item.description;
+
+// get the media width
+let media_width = window.matchMedia('(min-width: 48em)');
+
+// check if the screen size is a minimum of 48ems 
+if(media_width.matches) {
+    content.firstChild.childNodes.forEach(item => {
+        if(item.classList.contains('media-body')) {
+            item.classList.add('space-down');
+        }
+        item.classList.add('col-1-2');
+    })
+
+}

@@ -1,4 +1,8 @@
 .brand img {
     width: 100px;
     height: 50px;
+
+    @include small-and-above {
+        width: 120px;
+    }
 }

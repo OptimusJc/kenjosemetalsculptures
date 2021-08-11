@@ -1,4 +1,7 @@
 .content {
-    margin-right: 10px;
-    margin-left: 10px;
+    @include marg(10px);
+
+    @include small-and-above {
+        @include marg(20px);
+    }
 }
