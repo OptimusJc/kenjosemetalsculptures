@@ -315,13 +315,11 @@ a {
   .media .media-body:last-child {
     margin-bottom: 2.8125rem; }
   @media only screen and (min-width: 48em) {
-    .media {
-      height: 410px; }
-      .media .space-down {
-        margin-top: 6rem;
-        padding-left: 1rem; }
-      .media .media-body:last-child {
-        margin-bottom: 1rem; } }
+    .media .space-down {
+      margin-top: 6rem;
+      padding-left: 1rem; }
+    .media .media-body:last-child {
+      margin-bottom: 1rem; } }
 
 @media only screen and (min-width: 48em) {
   .content .media {
@@ -378,10 +376,6 @@ a {
   .footer .quick-links ul li a {
     width: 320px; } }
 
-@media only screen and (min-width: 75em) {
-  .footer .row .col-roll {
-    display: flex; } }
-
 .h2 {
   letter-spacing: 2.02px;
   line-height: 42px;
@@ -402,6 +396,11 @@ a {
     margin-right: 0.4rem; }
   .copyright p {
     text-transform: capitalize; }
+  @media only screen and (min-width: 48em) {
+    .copyright {
+      width: 100%;
+      margin: auto;
+      padding: 1rem; } }
 
 .services {
   font-size: 0.9rem;

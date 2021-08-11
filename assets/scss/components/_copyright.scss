@@ -17,4 +17,9 @@
         text-transform: capitalize;
     }
 
+    @include small-and-above {
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+    }
 }

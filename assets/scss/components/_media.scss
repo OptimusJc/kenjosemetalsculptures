@@ -29,16 +29,17 @@
     }
 
     @include small-and-above {
-        // border: 1px solid;
-        height: 410px;
+        // height: 410px;
 
         .space-down {
             margin-top: 6rem;
             padding-left: 1rem;
         }
 
-        .media-body:last-child {
-            margin-bottom: 1rem;
+        .media-body {
+            &:last-child {
+                margin-bottom: 1rem;
+            }
         }
     }
 }
