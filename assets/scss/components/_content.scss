@@ -1,7 +1,25 @@
 .content {
-    @include marg(10px);
-
     @include small-and-above {
-        @include marg(20px);
+        // @include marg(20px);
+
+        // reduce the height of the media div on the content page
+        .media {
+            height: 380px;
+        }
+    }
+
+    @include medium-and-above {
+        .media {
+            height: 450px;
+
+            .media-item {
+                height: 450px;
+                width: 600px;
+            }
+
+            .media-body {
+                width: 500px;
+            }
+        }
     }
 }

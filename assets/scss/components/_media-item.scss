@@ -32,3 +32,21 @@
         overflow: hidden;
     }
 }
+
+@include medium-and-above {
+    .media-item {
+        width: 360px;
+        height: 280px; //original was 310px
+
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .media-item-large {
+        width: 360px;
+        height: 310px;
+        overflow: hidden;
+    }
+}

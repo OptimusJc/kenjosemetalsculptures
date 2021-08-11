@@ -29,8 +29,6 @@
     }
 
     @include small-and-above {
-        // height: 410px;
-
         .space-down {
             margin-top: 6rem;
             padding-left: 1rem;
@@ -45,25 +43,19 @@
 }
 
 @include small-and-above {
-    // reduce the height of the media div on the content page
-    .content {
-        .media {
-            height: 380px;
-        }
-    }
-
-    .about-us {
-        height: 450px;
+    .media.about-us {
+        height: 550px;
 
         .media-body {
-            width: 600px;
+            width: 350px;
             word-break: break-all;
         }
     }
 
     .about-services .media-body {
-        width: 600px;
+        width: 380px;
         word-break: break-all;
+        padding: 0 10px 0 10px;
 
         .media-head {
             margin-bottom: 0.4rem;
@@ -71,21 +63,22 @@
     }
 }
 
-// @include small-and-above {
-//     .about-us {
-//         p {
-//             width: 650px;
-//             word-break: break-word;
-//         }
-//     }
+@include medium-and-above {
+    .media.about-us {
+        height: 620px;
 
-//     .about-services {
-//         padding-top: 2rem;
-//         height: 380px;
-//         width: 650px;
+        .media-item {
+            width: 600px;
+            height: 450px;
+        }
 
-//         .media-body .media-head {
-//             margin-bottom: 0.4rem;
-//         }
-//     }
-// }
+        .media-body {
+            width: 600px;
+        }
+    }
+
+    .about-services .media-body {
+        width: 500px;
+        margin: 0 30px;
+    }
+}

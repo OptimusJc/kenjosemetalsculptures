@@ -67,24 +67,22 @@ window.addEventListener('load', () => {
     data.forEach( (art, index) => renderElement(art, (index+1)));
     
     // get the media width
-    let media_width = window.matchMedia('(min-width: 48em)');
+    let ipad = window.matchMedia('(min-width: 48em) and (max-width: 75em)');
+    let laptop = window.matchMedia('(min-width: 75em)');
     let columns = document.querySelectorAll('.col.main');
 
     // check if the screen size is a minimum of 48ems 
-    if(media_width.matches) {
+    if(ipad.matches) {
         columns.forEach(column => {
             column.classList.add('col-1-2');
         });
+        console.log(`ipad: ${ipad.matches}`);
+
+    } else if(laptop.matches) {
+        columns.forEach(column => {
+            column.classList.add('col-1-3');
+        });
+        console.log(`laptop: ${laptop.matches}`);
     }
-
-    let ipad = window.matchMedia('(min-width: 48em)');
-
-    if(ipad.matches) {
-        console.log(`${ipad}`)
-    } else {
-        console.log('media width does not match')
-    }
-
-
 
 });  

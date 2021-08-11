@@ -22,4 +22,8 @@
         margin: auto;
         padding: 1rem;
     }
+
+    @include medium-and-above {
+        padding: 1.25rem;
+    }
 }

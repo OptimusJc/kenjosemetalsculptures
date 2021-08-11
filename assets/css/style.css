@@ -185,9 +185,16 @@ a {
   .col-2-3 {
     width: 66.6666%; } }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 75em) {
+  .col-1-3 {
+    width: 33.3333%; }
+  .col-2-3 {
+    width: 66.6666%; }
   .col-1-2 {
-    width: 50%; } }
+    width: 50%; }
+  .container {
+    max-width: 1200px;
+    margin: auto; } }
 
 .header {
   height: 70px;
@@ -266,9 +273,9 @@ a {
               position: absolute;
               transition: width 0.4s; }
             .navigation ul li a:hover:before {
-              width: 55px; }
+              width: 50px; }
           .navigation ul li:hover:last-child a:before {
-            width: 100px; } }
+            width: 90px; } }
 
 .media-item {
   width: 340px;
@@ -293,6 +300,18 @@ a {
   .media-item-large {
     height: 320px;
     width: 340px;
+    overflow: hidden; } }
+
+@media only screen and (min-width: 75em) {
+  .media-item {
+    width: 360px;
+    height: 280px; }
+    .media-item img {
+      object-fit: cover;
+      object-position: center; }
+  .media-item-large {
+    width: 360px;
+    height: 310px;
     overflow: hidden; } }
 
 .media {
@@ -322,18 +341,29 @@ a {
       margin-bottom: 1rem; } }
 
 @media only screen and (min-width: 48em) {
-  .content .media {
-    height: 380px; }
-  .about-us {
-    height: 450px; }
-    .about-us .media-body {
-      width: 600px;
+  .media.about-us {
+    height: 550px; }
+    .media.about-us .media-body {
+      width: 350px;
       word-break: break-all; }
   .about-services .media-body {
-    width: 600px;
-    word-break: break-all; }
+    width: 380px;
+    word-break: break-all;
+    padding: 0 10px 0 10px; }
     .about-services .media-body .media-head {
       margin-bottom: 0.4rem; } }
+
+@media only screen and (min-width: 75em) {
+  .media.about-us {
+    height: 620px; }
+    .media.about-us .media-item {
+      width: 600px;
+      height: 450px; }
+    .media.about-us .media-body {
+      width: 600px; }
+  .about-services .media-body {
+    width: 500px;
+    margin: 0 30px; } }
 
 .footer .quick-links .footer-heading {
   font-size: 0.875rem;
@@ -369,12 +399,28 @@ a {
   width: 280px; }
 
 @media only screen and (min-width: 48em) {
-  .footer .quick-links .footer-brand img {
-    height: 50px; }
-  .footer .quick-links .email p {
-    width: 350px; }
-  .footer .quick-links ul li a {
-    width: 320px; } }
+  .footer .quick-links {
+    margin-top: 2rem; }
+    .footer .quick-links .footer-brand img {
+      height: 50px; }
+    .footer .quick-links .email p {
+      width: 350px; }
+    .footer .quick-links ul li a {
+      width: 320px; } }
+
+@media only screen and (min-width: 75em) {
+  .footer .row .col-roll {
+    display: flex;
+    flex: 1;
+    margin-top: 5rem; }
+    .footer .row .col-roll .quick-links ul li a {
+      width: 290px;
+      word-wrap: break-all; }
+    .footer .row .col-roll .quick-links .email p {
+      word-wrap: break-all;
+      width: 240px; }
+    .footer .row .col-roll .quick-links .footer-brand img {
+      padding-left: 7rem; } }
 
 .h2 {
   letter-spacing: 2.02px;
@@ -401,6 +447,9 @@ a {
       width: 100%;
       margin: auto;
       padding: 1rem; } }
+  @media only screen and (min-width: 75em) {
+    .copyright {
+      padding: 1.25rem; } }
 
 .services {
   font-size: 0.9rem;
@@ -539,6 +588,9 @@ a {
         max-width: 350px; }
         .email-form ul li a p {
           max-width: 350px; } }
+  @media only screen and (min-width: 75em) {
+    .email-form {
+      width: 80%; } }
 
 .margin_bottom {
   position: relative;
@@ -546,10 +598,15 @@ a {
   height: 100px;
   width: 100%; }
 
-.content {
-  margin-right: 10px;
-  margin-left: 10px; }
-  @media only screen and (min-width: 48em) {
-    .content {
-      margin-right: 20px;
-      margin-left: 20px; } }
+@media only screen and (min-width: 48em) {
+  .content .media {
+    height: 380px; } }
+
+@media only screen and (min-width: 75em) {
+  .content .media {
+    height: 450px; }
+    .content .media .media-item {
+      height: 450px;
+      width: 600px; }
+    .content .media .media-body {
+      width: 500px; } }

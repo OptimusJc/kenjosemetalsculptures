@@ -47,6 +47,7 @@
 
     @include small-and-above {
         .quick-links {
+            margin-top: 2rem;
             .footer-brand img {
                 height: 50px;
             }
@@ -64,9 +65,28 @@
     }
 
     // // device width above 75ems
-    // @include medium-and-above {
-    //     .row .col-roll {
-    //         // display: flex;
-    //     }
-    // }
+    @include medium-and-above {
+        .row .col-roll {
+            display: flex;
+            flex: 1;
+            margin-top: 5rem;
+
+            .quick-links {
+                ul li {
+                    a {
+                        width: 290px;
+                        word-wrap: break-all;
+                    }
+                }
+                .email p {
+                    word-wrap: break-all;
+                    width: 240px;
+                }
+
+                .footer-brand img {
+                    padding-left: 7rem;
+                }
+            }
+        }
+    }
 }

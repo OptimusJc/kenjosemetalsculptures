@@ -155,6 +155,10 @@
             }
         }
     }
+
+    @include medium-and-above {
+        width: 80%;
+    }
 }
 
 // life saving element that put a negative margin to bring balance to the footer ::smiley
