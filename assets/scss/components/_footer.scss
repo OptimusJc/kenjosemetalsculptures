@@ -1,4 +1,5 @@
 .footer {
+
     .quick-links {
         .footer-heading {
             font-size: 0.875rem;
@@ -97,6 +98,24 @@
                     padding-left: 7rem;
                 }
             }
+            .quick-links.company-details p {
+                font-size: 0.875rem;
+                font-style: italic;
+            letter-spacing: 1.01px;
+            line-height: 21px;
+            padding-left: 2rem;
+            word-wrap: break-all;
+            
+            }
         }
+
+        
+    }
+}
+
+
+@include medium-and-above {
+    .footer.about-footer .col-roll{
+        margin-top: 10rem;
     }
 }

@@ -433,7 +433,18 @@ a {
       word-wrap: break-all;
       width: 240px; }
     .footer .row .col-roll .quick-links .footer-brand img {
-      padding-left: 7rem; } }
+      padding-left: 7rem; }
+    .footer .row .col-roll .quick-links.company-details p {
+      font-size: 0.875rem;
+      font-style: italic;
+      letter-spacing: 1.01px;
+      line-height: 21px;
+      padding-left: 2rem;
+      word-wrap: break-all; } }
+
+@media only screen and (min-width: 75em) {
+  .footer.about-footer .col-roll {
+    margin-top: 10rem; } }
 
 .h2 {
   letter-spacing: 2.02px;
