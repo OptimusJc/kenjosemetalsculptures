@@ -2,103 +2,171 @@ const data = [
     {
         "pic": "/assets/images/buffalo.jpg",
         "name": "buffalo art",
-        "description": "this is a simple artwork of an buffalo",
+        "description": {
+            "height": "4.5feet",
+            "weight": "120kgs",
+            "length": "10feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/elephant 2.jpg",
         "name": "elephant 2 art",
-        "description": "this is a simple artwork of an elephant kenya",
+        "description": {
+            "height": "8feet",
+            "weight": "200kgs",
+            "length": "12feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/girrafe.jpg",
         "name": "girrafe art",
-        "description": "this is a simple artwork of an girrafe",
+        "description": {
+            "height": "14feet",
+            "weight": "180kgs",
+            "length": ""
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/hippo 2.jpg",
         "name": "hippo art",
-        "description": "this is a simple artwork of a hippo",
+        "description": {
+            "height": "3feet",
+            "weight": "50kgs",
+            "length": "6feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/lizard.jpg",
         "name": "lizzard art",
-        "description": "this is a simple artwork of a lizzard",
+        "description": {
+            "height": "",
+            "weight": "30kgs",
+            "length": "6feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/ostrich.jpg",
         "name": "ostrich art",
-        "description": "this is a simple artwork of an ostrich",
+        "description": {
+            "height": "5feet",
+            "weight": "25kgs",
+            "length": ""
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/rhino.jpg",
         "name": "rhinocerous art",
-        "description": "this is a simple artwork of an rihno",
+        "description": {
+            "height": "5feet",
+            "weight": "150kgs",
+            "length": "10feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/wilde beast.jpg",
         "name": "wilde beast art",
-        "description": "this is a simple artwork of an wilde beast",
+        "description": {
+            "height": "3.5feet",
+            "weight": "40kgs",
+            "length": "6feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/zebra.jpg",
         "name": "zebra art",
-        "description": "this is a simple artwork of an zebra",
+        "description": {
+            "height": "4feet",
+            "weight": "40kgs",
+            "length": "6feet"
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/horses.jpeg",
         "name": "horse",
-        "description": "this is a simple art work of a horse",
+        "description": {
+            "height": "",
+            "weight": "",
+            "length": ""
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/warthog.jpeg",
         "name": "warthog",
-        "description": "this is a simple art work of a warthog",
+        "description": {
+            "height": "",
+            "weight": "",
+            "length": ""
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/peacock.jpeg",
         "name": "peacock",
-        "description": "this is a simple art work of a peacock",
+        "description": {
+            "height": "3feet",
+            "weight": "15kgs",
+            "length": ""
+        },
         "size": "small"
     },
     {
         "pic": "/assets/images/greatKudu.jpeg",
         "name": "Great Kudu",
-        "description": "this is a simple art work of the great kudu",
+        "description": {
+            "height": "",
+            "weight": "",
+            "length": ""
+        },
         "size": "big"
     },
     {
         "pic": "/assets/images/lion.jpeg",
         "name": "lion",
-        "description": "this is a simple art work of a lion",
+        "description": {
+            "height": "3feet",
+            "weight": "35kgs",
+            "length": "5feet"
+        },
         "size": "big"
     },
     {
         "pic": "/assets/images/monkey.jpeg",
         "name": "monkey",
-        "description": "this is a simple art work of a monkey",
+        "description": {
+            "height": "",
+            "weight": "15kgs",
+            "length": ""
+        },
         "size": "big"
     },
     {
         "pic": "/assets/images/antelope.jpeg",
         "name": "antelope art",
-        "description": "this is a simple art work of an antelope",
+        "description": {
+            "height": "2feet",
+            "weight": "10kgs",
+            "length": "3.5feet"
+        },
         "size": "big"
     },
     {
         "pic": "/assets/images/cobra.jpg",
         "name": "cobra art",
-        "description": "this is a simple artwork of a cobra",
+        "description": {
+            "height": "",
+            "weight": "",
+            "length": ""
+        },
         "size": "big"
     },
 

@@ -1,8 +1,21 @@
 .content {
+    .list {
+
+        li {
+            margin-bottom: 1.3rem;
+            letter-spacing: 1.37px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    }
     @include small-and-above {
         // reduce the height of the media div on the content page
         .media {
             height: 380px;
+            
+            .media-body {
+                padding-left: 2rem;
+            }
         }
     }
 
@@ -17,6 +30,14 @@
 
             .media-body {
                 width: 500px;
+            }
+        }
+
+        .list {
+            li {
+                margin-bottom: 1.3rem;
+                letter-spacing: 1.37px;
+                font-size: 0.9rem;
             }
         }
     }

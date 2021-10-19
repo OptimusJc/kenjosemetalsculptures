@@ -634,9 +634,17 @@ a {
   height: 100px;
   width: 100%; }
 
+.content .list li {
+  margin-bottom: 1.3rem;
+  letter-spacing: 1.37px;
+  font-size: 0.9rem;
+  font-weight: 500; }
+
 @media only screen and (min-width: 48em) {
   .content .media {
-    height: 380px; } }
+    height: 380px; }
+    .content .media .media-body {
+      padding-left: 2rem; } }
 
 @media only screen and (min-width: 75em) {
   .content .media {
@@ -645,4 +653,8 @@ a {
       height: 450px;
       width: 600px; }
     .content .media .media-body {
-      width: 500px; } }
+      width: 500px; }
+  .content .list li {
+    margin-bottom: 1.3rem;
+    letter-spacing: 1.37px;
+    font-size: 0.9rem; } }

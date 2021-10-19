@@ -55,11 +55,8 @@ window.addEventListener('load', () => {
         
         a.setAttribute('href', `./content.html#content${art.name}`);
         media_body.classList.add("media-body");
-        h3.innerHTML = art.name;
         h3.classList.add('media-head');
         
-        p.innerHTML = art.description;
-        id.innerHTML = index;
 
     }
 
