@@ -49,7 +49,25 @@
         }
     }
 
+    .quick-links.company-details p {
+        font-size: 0.875rem;
+        font-style: italic;
+        letter-spacing: 1.01px;
+        line-height: 21px;
+        padding-left: 2rem;
+        word-wrap: break-all;
+    }
+
     @include small-and-above {
+        .row .col-roll {
+            // margin-top: 15rem;
+            
+            .quick-links.company-details p {
+                width: 360px;
+                margin-bottom: 2rem;
+            }
+        }
+
         .quick-links {
             margin-top: 2rem;
             .footer-brand img {
@@ -101,10 +119,10 @@
             .quick-links.company-details p {
                 font-size: 0.875rem;
                 font-style: italic;
-            letter-spacing: 1.01px;
-            line-height: 21px;
-            padding-left: 2rem;
-            word-wrap: break-all;
+                letter-spacing: 1.01px;
+                line-height: 21px;
+                padding-left: 2rem;
+                word-wrap: break-all;
             
             }
         }
@@ -113,9 +131,16 @@
     }
 }
 
+@include small-and-above {
+    .footer.about-footer .col-roll{
+        margin-top: 15rem;
+        
+    }
+}
+
 
 @include medium-and-above {
     .footer.about-footer .col-roll{
-        margin-top: 10rem;
+        margin-top: 13rem;
     }
 }

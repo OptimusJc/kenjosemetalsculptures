@@ -21,6 +21,7 @@
             font-size: 0.9rem;
             letter-spacing: 1.37px;
             line-height: 21px;
+            padding-bottom: 1rem;
         }
 
         &:last-child {
@@ -32,6 +33,7 @@
         .space-down {
             margin-top: 6rem;
             padding-left: 1rem;
+
         }
 
         .media-body {
@@ -42,13 +44,27 @@
     }
 }
 
+.media.about-us {
+    .media-body {
+        strong {     
+            font-weight: 500;
+            font-size: 1.1rem;
+            letter-spacing: 1.37px;
+            line-height: 1.3rem;
+            
+        }
+    }
+}
+
+
 @include small-and-above {
     .media.about-us {
         height: 550px;
 
         .media-body {
-            width: 350px;
+            width: 380px;
             word-break: break-all;
+
         }
     }
 

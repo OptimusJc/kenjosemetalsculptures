@@ -334,7 +334,8 @@ a {
   .media .media-body p {
     font-size: 0.9rem;
     letter-spacing: 1.37px;
-    line-height: 21px; }
+    line-height: 21px;
+    padding-bottom: 1rem; }
   .media .media-body:last-child {
     margin-bottom: 2.8125rem; }
   @media only screen and (min-width: 48em) {
@@ -344,11 +345,17 @@ a {
     .media .media-body:last-child {
       margin-bottom: 1rem; } }
 
+.media.about-us .media-body strong {
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 1.37px;
+  line-height: 1.3rem; }
+
 @media only screen and (min-width: 48em) {
   .media.about-us {
     height: 550px; }
     .media.about-us .media-body {
-      width: 350px;
+      width: 380px;
       word-break: break-all; }
   .about-services .media-body {
     width: 380px;
@@ -405,7 +412,18 @@ a {
   word-wrap: break-word;
   width: 280px; }
 
+.footer .quick-links.company-details p {
+  font-size: 0.875rem;
+  font-style: italic;
+  letter-spacing: 1.01px;
+  line-height: 21px;
+  padding-left: 2rem;
+  word-wrap: break-all; }
+
 @media only screen and (min-width: 48em) {
+  .footer .row .col-roll .quick-links.company-details p {
+    width: 360px;
+    margin-bottom: 2rem; }
   .footer .quick-links {
     margin-top: 2rem; }
     .footer .quick-links .footer-brand img {
@@ -442,9 +460,13 @@ a {
       padding-left: 2rem;
       word-wrap: break-all; } }
 
+@media only screen and (min-width: 48em) {
+  .footer.about-footer .col-roll {
+    margin-top: 15rem; } }
+
 @media only screen and (min-width: 75em) {
   .footer.about-footer .col-roll {
-    margin-top: 10rem; } }
+    margin-top: 13rem; } }
 
 .h2 {
   letter-spacing: 2.02px;
