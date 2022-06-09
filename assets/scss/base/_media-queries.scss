@@ -1,5 +1,6 @@
 $ipad: 48em;
 $laptop: 75em;
+$desktop: 85em;
 
 @mixin small-and-above {
     @media only screen and (min-width: $ipad) {

@@ -12,3 +12,8 @@
     margin-right: -$mag;
     margin-left: -$mag;
 }
+
+@mixin reverse-padding($pad) {
+    padding-left: -$pad;
+    padding-right: -$pad;
+}

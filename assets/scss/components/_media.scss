@@ -33,7 +33,6 @@
         .space-down {
             margin-top: 6rem;
             padding-left: 1rem;
-
         }
 
         .media-body {
@@ -46,16 +45,14 @@
 
 .media.about-us {
     .media-body {
-        strong {     
+        strong {
             font-weight: 500;
             font-size: 1.1rem;
             letter-spacing: 1.37px;
             line-height: 1.3rem;
-            
         }
     }
 }
-
 
 @include small-and-above {
     .media.about-us {
@@ -64,7 +61,6 @@
         .media-body {
             width: 380px;
             word-break: break-all;
-
         }
     }
 
@@ -90,7 +86,6 @@
 
         .media-body {
             width: 600px;
-            
         }
     }
 
